@@ -12,7 +12,7 @@ sudo -E chmod u+w /root/.pip/pip.conf
 #sudo -E sed -i 'a\[global]' /root/.pip/pip.conf
 #sudo -E sed -i 'a\index-url = https://pypi.tuna.tsinghua.edu.cn/simple' /root/.pip/pip.conf
 
-sudo -E echo -e "[global]\nindex-url = https://pypi.tuna.tsinghua.edu.cn/simple" > /root/.pip/pip.conf
+sudo -E bash -c "echo -e \"[global]\nindex-url = https://pypi.tuna.tsinghua.edu.cn/simple\" > /root/.pip/pip.conf"
 
 #sudo -E echo "[global]" >> /root/.pip/pip.conf
 #sudo -E echo "index-url = https://pypi.tuna.tsinghua.edu.cn/simple" >> /root/.pip/pip.conf
